@@ -13,9 +13,9 @@ import br.com.caelum.ingresso.dao.SalaDao;
 public class SessaoController {
 
 	@Autowired
-	public SalaDao salaDao;
+	private SalaDao salaDao;
 	@Autowired
-	public FilmeDao filmeDao;
+	private FilmeDao filmeDao;
 	
 	@GetMapping("/admin/sessao")
 	public ModelAndView form(@RequestParam("salaId")Integer salaId){
