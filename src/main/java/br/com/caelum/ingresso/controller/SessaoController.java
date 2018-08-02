@@ -59,7 +59,7 @@ public class SessaoController {
 		if(gerenciador.cabe(sessao)){
 		sessaoDao.save(sessao);
 	
-		return new ModelAndView("redirect:/admin/sala/"+form.getSalaId()+"/sessao");
+		return new ModelAndView("redirect:/admin/sala/"+form.getSalaId()+"/sessoes");
 		}
 		return form(form.getSalaId(),form);
 }
