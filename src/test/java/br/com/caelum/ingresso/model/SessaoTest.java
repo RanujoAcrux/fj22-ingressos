@@ -1,5 +1,9 @@
 package br.com.caelum.ingresso.model;
 
+import br.com.caelum.ingresso.model.Sala;
+import br.com.caelum.ingresso.model.Filme;
+import br.com.caelum.ingresso.model.Sessao;
+
 import java.math.BigDecimal;
 import java.time.Duration;
 import java.time.LocalTime;

@@ -21,7 +21,7 @@ public class Filme {
     private Duration duracao;
     private String genero;
     
-    private BigDecimal preco;
+    private BigDecimal preco = BigDecimal.ZERO;
     
     
     /**

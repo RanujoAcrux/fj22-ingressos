@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @Entity
 public class Sala {
 
-	private BigDecimal preco;
+	private BigDecimal preco = BigDecimal.ZERO;
 	
     @Id
     @GeneratedValue
